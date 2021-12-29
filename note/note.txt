@@ -1,0 +1,78 @@
+
+# Glosarium red
+! Hipotesis
+	Sesuatu yang dianggap benar untuk alasan atau pengutaraan pendapat (teori, proposisi, dan sebagainya) meskipun kebenarannya masih harus dibuktikan; anggapan dasar (KBBI).
+
+! Premis
+	Apa yang dianggap benar sebagai landasan kesimpulan; dasar pemikiran; alasan atau bisa disebut juga dengan asumsi (KBBI).
+
+
+
+
+# PENDAHULUAN red
+
+! Menurut Technopedia, logika pemrograman adalah sebuah kemampuan dasar yang menerapkan pemahaman operasi logika terhadap data ke dalam ilmu komputer [1]. Tidak berhenti di sana, logika pemrograman juga dapat membantu Anda untuk menyelesaikan masalah (problem solving), baik dalam bidang pemrograman maupun kehidupan sehari-hari. Sangat bermanfaat sekali, bukan?
+
+! Ada 3 jenis logika pemrograman yang akan kita bahas, antara lain:
+	- Logika aritmatika
+	- Logika perbandingan
+	- Logika perulangan
+
+! Logika dan algoritma merupakan dua hal yang berbeda tetapi saling berkaitan satu sama lain. Jika sebelumnya logika pemrograman dapat membantu Anda untuk menyelesaikan permasalahan (problem solving), algoritma bertugas untuk membuat penyelesaiannya lebih terstruktur. 
+
+
+
+! Ketika menyusun algoritma, terdapat beberapa hal yang harus diperhatikan, seperti:
+	- Finiteness (Keterbatasan)
+		Algoritma yang berjalan dan memproses setiap langkah-langkahnya memiliki sifat terbatas, sehingga ia harus berhenti ketika semua langkah-langkahnya selesai dikerjakan. Jangan membuat algoritma yang panjang dan tidak ada akhirnya karena akan bertentangan dengan sifat finiteness ini.
+
+	- Definiteness (Kepastian)
+		Setiap langkah algoritma harus jelas, detail, dan tidak ambigu (makna ganda). Dengan kata lain, pembaca harus mengerti apa tujuan yang dimaksud. Misalnya Anda ingin membuat algoritma untuk menghitung luas persegi. Dari sana penggunanya harus tahu kalau yang diinputkan hanya berupa angka, bukan teks.
+
+	- Effectiveness (Efektivitas)
+		Setiap algoritma harus dibuat secara efektif. Langkah-langkah yang ada di dalamnya juga harus sesuai kebutuhan dan tidak perlu berlebihan. Dengan langkah yang efektif, waktu yang dibutuhkan pun akan lebih singkat atau masih dalam batas wajar.
+
+	- Input (Masukan)
+		Algoritma pasti membutuhkan nol atau lebih masukan (input) sebelum prosesnya dimulai. Misalnya algoritma untuk menghitung luas persegi panjang. Anda harus memasukkan dua input berupa angka untuk panjang dan lebarnya.
+
+	- Output (Keluaran)
+		Setiap input yang diproses oleh algoritma pasti memiliki satu atau lebih keluaran (output). Keluaran adalah besaran nilai yang memiliki hubungan dengan masukan (input). Keluaran harus berupa solusi atau penyelesaian dari suatu masalah. Jika sebuah algoritma tidak menemukan solusi, setidaknya harus menunjukkan pesan eror yang jelas. Misalnya dalam algoritma menghitung luas persegi panjang, pengguna melakukan kesalahan dengan memasukkan input berupa teks. Sehingga algoritma yang Anda buat harus bisa menangani hal tersebut dengan menampilkan pesan eror dan mengatakan inputnya harus berupa angka.
+
+
+
+! penalaran logika induktif adalah logika pendukung pembuktian. Jenis penalaran ini melibatkan pembentukan generalisasi berdasarkan pengalaman, pengamatan, dan fakta.
+
+! Proses penalaran induktif dimulai dari (observation -> patern -> tentative hypothesi -> Theory),
+	- Pengamatan terhadap suatu peristiwa atau hal lainnya.
+	- Mendeteksi pola dan keteraturan dari pengalaman yang telah terjadi.
+	- Merumuskan beberapa hipotesis sementara yang dapat kita eksplorasi.
+	- Mengambil kesimpulan.
+
+
+! Logika Deduktif (theory -> hypothesis -> observation -> confirmation)
+! logika penalaran deduktif adalah sistem yang tepat dan teratur bertujuan untuk memberikan dukungan pasti untuk suatu kesimpulan. Salah satu bentuk penalaran logika deduktif adalah silogisme
+
+! silogisme adalah bentuk, cara berpikir atau menarik simpulan yang terdiri atas premis umum, premis khusus, dan simpulan
+
+
+
+# Gerbang Logika red
+
+! Gerbang logika atau logic gate adalah sebuah rangkaian sirkuit digital yang berguna untuk memproses logika boolean (logika yang menghasilkan output benar atau salah). Gerbang logika ini menghasilkan output berupa 0 (salah) dan 1 (benar) berdasarkan input (masukan) yang kita berikan.
+
+! AND (X = AB)
+! OR (X = A + B)
+! NAND = Negasi dari AND (X = AB // ditambah dengan garis di atas AB), X = ekspresi(output)
+! NOR = Negasi dari OR (X = A + B // ditambah dengan garis di atas A + B)
+! XOR = Exclusive OR (X = AB + AB // di tambah dengan garis di atas A saja + B saja)(atau X = A (+) B)
+	! XOR singkatan dari Exclusive OR. Jika sebelumnya dalam logika OR kita mengetahui jika salah satu input saja bernilai 1 (true), maka outputnya pasti bernilai 1 (true). Lain halnya dengan XOR yang hanya menghasilkan keluaran 1 (true) ketika kedua inputnya berbeda. Masih bingung? Oke, mari kita bahas perbedaannya di bawah ini.
+! XNOR = Exclusive NOR (X = AB + AB // di tambah dengan garis diatas AB yg terakhir .. + AB)(atau X = A (+) B // di tambah dengan garis diatas A (+) B)
+	! Jika sebelumnya dalam logika NOR kita mengetahui jika salah satu input ada yang bernilai 1 (true), maka outputnya pasti bernilai 0 (false). Lain halnya dengan XNOR yang hanya menghasilkan keluaran 1 (true) ketika kedua nilai inputnya sama
+
+
+# Pengenalan Dasar Computational Thinking
+
+! Decompotion -> pattern recognition -> abstraction -> algorithm -> evaluation
+
+! Algoritma merupakan sekumpulan alur instruksi yang berurutan untuk menyelesaikan permasalahan.
+
